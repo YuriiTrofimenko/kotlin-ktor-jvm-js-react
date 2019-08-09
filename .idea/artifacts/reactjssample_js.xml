@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="reactjssample-js">
+    <output-path>$PROJECT_DIR$/build/libs</output-path>
+    <root id="archive" name="reactjssample-js.jar">
+      <element id="module-output" name="reactjssample.jsMain" />
+    </root>
+  </artifact>
+</component>
