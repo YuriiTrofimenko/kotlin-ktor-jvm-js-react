@@ -27,9 +27,9 @@ class TransferTests {
     }*/
 
     private fun testData() : List<Transfer> = listOf(
-        Transfer("2019-01-01", employer, salary, 30000),
-        Transfer("2019-01-02", shop, food, -300),
-        Transfer("2019-01-02", taxi, travel, -200),
-        Transfer("2019-01-07", shop, food, -250)
+        Transfer(LocalDateTime("2019-01-01"), employer, salary, 30000),
+        Transfer(LocalDateTime("2019-01-02"), shop, food, -300),
+        Transfer(LocalDateTime("2019-01-02"), taxi, travel, -200),
+        Transfer(LocalDateTime("2019-01-07"), shop, food, -250)
     )
 }
